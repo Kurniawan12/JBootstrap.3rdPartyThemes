@@ -1,0 +1,69 @@
+/**
+ * @package		JomSocial
+ * @subpackage 	Template 
+ * @copyright 	(C) 2011 by Slashes & Dots Sdn Bhd - All rights reserved!
+ * @license		GNU/GPL, see LICENSE.php
+ */
+
+@import url("style.reset.css");
+@import url("style.toolbar.css");
+@import url("style.layout.css");
+@import url("style.stream.css");
+@import url("style.messaging.css");
+@import url("style.old.css");
+@import url("style.window.css");
+@import url("style.themefix.css");
+
+
+/** ----- Subcomponent ----- **/
+@import url("apps/style.videos.css");
+@import url("apps/style.photos.css");
+@import url("apps/style.events.css");
+@import url("apps/style.groups.css");
+@import url("apps/style.profile.css");
+@import url("apps/style.people.css");
+
+#communitylogout {
+    margin:0;
+}
+
+#communitylogout a {
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    line-height: 14px;
+    margin-right: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: block;    
+}
+
+#jbjsMenu li.pull-right, #jbjsSubMenu li.pull-right {
+    float:right;
+}
+
+#community-wrap .subnav {
+    background-color: #EEEEEE;
+    background-image: -moz-linear-gradient(center top , #F5F5F5 0%, #EEEEEE 100%);
+    background-repeat: repeat-x;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px 4px 4px 4px;
+    height: 36px;
+    width: 100%;
+    margin-bottom: 18px;
+    padding-bottom: 0;
+}
+
+.jsTogSearch li {
+    list-style: none outside none;
+}
+
+#community-wrap .cFrontPageRight input {
+	width: 180px;
+}
+
+#community-wrap .cFrontPageLeft .introduction {
+	padding: 36px 0px 0px 36px;
+}
